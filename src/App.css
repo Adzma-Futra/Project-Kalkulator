@@ -1,3 +1,8 @@
+@keyframes kelip {
+  0% {background-color: white;}
+  100% {background-color: gray;}
+}
+
 .container {
   background-size: cover;
   width: 100%;
@@ -41,6 +46,7 @@ form .display {
   margin: 5px, 0px, 10px, 0px;
 }
 form .display input {
+  animation: kelip 3s infinite;
   text-align: right;
   flex: 1;
   font-size: 15px;
